@@ -1,0 +1,16 @@
+version: '3'
+services:
+  front:
+    build: ./server
+    command: node /server/index.js
+    volumes:
+      - "./server/:/server/"
+    ports:
+      - "8080:8080"
+  back:
+    build: .
+    command: npm start
+    volumes:
+      - "./src/:/src/"
+    ports:
+      - "3000:3000"

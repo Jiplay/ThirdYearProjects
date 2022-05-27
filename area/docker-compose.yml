@@ -1,0 +1,28 @@
+version: '3'
+services:
+  back:
+    build: ./go_web_server
+    command: go run main.go
+    ports:
+      - "8080:8080"
+  front:
+    build: ./front_web
+    command: npm start
+    depends_on:
+      - "back"
+    volumes:
+      - "./src/:/src/"
+    ports:
+      - "8081:8081"
+  react_native:
+    build: ./Area_App
+    volumes:
+      - "./src/:/src/"
+    env_file: .env
+    depends_on:
+      - "back"
+    command: expo ba
+    ports:
+      - "19000:19000"
+      - "19001:19001"
+      - "19002:19002"

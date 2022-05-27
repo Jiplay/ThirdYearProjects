@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+.main{
+    width: 550px;
+    border-radius: 15px;
+    background: rgba(219, 216, 216, 0.25);
+}
+
+
+.top{
+    height: 40px;
+    background-color: #424242;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: #87878afb;
+    color: whitesmoke;
+    margin: 5px 0px 0px 10px;
+    font-size: 25px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Recursive', sans-serif;
+}
+
+.day{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temp{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sunrise-sunset{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 16px;
+}
+
+.description{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.converter {
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  .currency {
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: #333;
+    border-radius: 5px;
+  }

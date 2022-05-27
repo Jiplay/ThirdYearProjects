@@ -1,0 +1,50 @@
+.loginpage {
+    background: blueviolet;
+    min-height: 93vh
+}
+
+.logininput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.logininput:focus {
+    outline: none !important;
+    border-bottom: 2px solid blueviolet;
+    /* box-shadow: 0 0 10px #719ECE; */
+}
+
+
+.loginbutton {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.logingooglebutton {
+    background-color: #4285F4;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.logingithubbutton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
